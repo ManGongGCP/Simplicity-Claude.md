@@ -15,11 +15,13 @@ CLAUDE.md is the most impactful configuration file for Claude Code — it define
 
 ## How to use
 
-Copy `CLAUDE.md` to `~/.claude/CLAUDE.md` (global, applies everywhere) or to `CLAUDE.md` in any project root (per-project override).
+Send this `CLAUDE.md` to Claude Code — it will install itself. Or manually:
 
 ```bash
 cp CLAUDE.md ~/.claude/CLAUDE.md
 ```
+
+For per-project override, place `CLAUDE.md` in any project root.
 
 ## License
 
